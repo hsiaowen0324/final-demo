@@ -1,0 +1,50 @@
+.logo-image{
+	height: 80px;
+	width:120px;
+}
+
+body{
+	font-family: tahoma;
+	background-image: url(../image/bg-login.jpg);
+	height:100vh;
+	min-height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow-y: hidden;
+
+}
+.login-reg-panel{
+
+	position: relative;
+	background-color: rgba(30,30,30,0.9);
+	color:#b8b8b8;
+	height: 400px;
+	width:75%;
+	text-align: center;
+	top: 50px;
+
+}
+.white-panel{
+	background-color: rgba(255,255,255,1);
+	height: 500px;
+	top:150px;
+	transition: .3s ease-in-out;
+	z-index: 0;
+	color:black;
+}
+
+
+
+
+.login-show,
+.register-show{
+		z-index: 1;
+		opacity: 1;
+		transition: .3s ease-in-out;
+		color:black;
+		text-align: left;
+		padding:50px;
+}
+
